@@ -1,0 +1,39 @@
+.formWrapper {
+    margin-left: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    padding: 20px;
+    background-image: url(https:img5.goodfon.ru/wallpaper/nbig/c/e2/kosmos-zviozdy-space.jpg);
+    border-radius: 15px;
+}
+
+.addBtn {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: thin;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.addBtn:hover {
+    background-color: rgb(5, 5, 66);
+    color: white;
+}
+
+.title {
+    font-size: large;
+    font-weight: 600;
+    color: gray;
+}
+
+input {
+    padding: 0 10px;
+    height: 20px;
+}
