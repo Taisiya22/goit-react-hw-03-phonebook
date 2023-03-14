@@ -1,20 +1,19 @@
 .list {
-    list-style: none;
-    width: 400px;
+  list-style: none;
 }
 
 .item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .deleteBtn {
-    display: block;
-    width: 100px;
+  display: block;
+  width: 100px;
 }
 
 .deleteBtn:hover {
-    background-color: rgb(5, 5, 66);
-    color: white;
+  background-color: lawngreen;
+  color: white;
 }

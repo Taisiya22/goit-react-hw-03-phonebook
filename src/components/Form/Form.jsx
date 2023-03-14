@@ -49,7 +49,7 @@ export class Form extends Component {
     return (
       <form className={css.formWrapper} onSubmit={this.handleSubmit}>
         <label htmlFor="name">
-          <p className={css.title }>Name</p>
+          <p className={css.title}>Name</p>
           <input
             type="text"
             name="name"
@@ -61,7 +61,7 @@ export class Form extends Component {
           />
         </label>
         <label htmlFor="number">
-          <p className={css.title }>Number</p>
+          <p className={css.title}>Number</p>
           <input
             type="tel"
             name="number"

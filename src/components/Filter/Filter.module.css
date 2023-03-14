@@ -1,10 +1,11 @@
 .text {
-    margin-left: 30px;
+    text-align: center;
     margin-bottom: 10px;
     font-size: large;
     font-weight: 600;
 }
 
-.search {
-    margin-left: 30px;
+.search{
+    margin-right: auto;
+    margin-left: auto;
 }

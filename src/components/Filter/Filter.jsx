@@ -2,10 +2,9 @@ import PropTypes from 'prop-types';
 import css from './Filter.module.css';
 
 export const Filter = ({ value, onChange }) => (
-  <label>
+  <label className={css.search}>
     <p className={css.text}>Find contacts by name</p>
     <input
-      className={css.search}
       type="text"
       name="filter"
       value={value}
